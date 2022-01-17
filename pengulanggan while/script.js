@@ -79,17 +79,20 @@
 // }
 
 // ########## peng kondisian if else dan else if menambahkan oprator ------logika dan----- tanda five baris 85 dan 87
-// var jumSiswa = 10;
-// var sedangMengikutiUjian =6;
-// for(var noIdSiswa = 1; noIdSiswa <= jumSiswa; noIdSiswa++){
-// 	if (noIdSiswa <= 6 && noIdSiswa !== 5) {
-// 		console.log('siswa no' + noIdSiswa + 'sedang Mengikuti Ujian');
-// 	}else if(noIdSiswa ===8 || noIdSiswa ===10 || noIdSiswa ===5){
-// console.log('siswa no ' + noIdSiswa + 'sedang di hukum')
-// 	}else{
-// 		console.log('siswa no' + noIdSiswa + 'sedang tidak mengikuti ujian');
-// 	}
-// }
+var jumSiswa = 10;
+var sedangMengikutiUjian =6;
+for(var noIdSiswa = 1; noIdSiswa <= jumSiswa; noIdSiswa++){
+	if (noIdSiswa <= 6 && noIdSiswa !== 5) {
+		console.log('siswa no' + noIdSiswa + 'sedang Mengikuti Ujian');
+	}else if(noIdSiswa ===8 || noIdSiswa ===10 || noIdSiswa ===5){
+console.log('siswa no ' + noIdSiswa + 'sedang di hukum')
+	}else{
+		console.log('siswa no' + noIdSiswa + 'sedang tidak mengikuti ujian');
+	}
+}
+
+
+1234
 
 
 
