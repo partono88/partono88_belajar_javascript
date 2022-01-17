@@ -91,6 +91,18 @@ console.log('siswa no ' + noIdSiswa + 'sedang di hukum')
 	}
 }
 
+var jumSiswa = 10;
+var sedangMengikutiUjian =6;
+for(var noIdSiswa = 1; noIdSiswa <= jumSiswa; noIdSiswa++){
+	if (noIdSiswa <= 6 && noIdSiswa !== 5) {
+		console.log('siswa no' + noIdSiswa + 'sedang Mengikuti Ujian');
+	}else if(noIdSiswa ===8 || noIdSiswa ===10 || noIdSiswa ===5){
+console.log('siswa no ' + noIdSiswa + 'sedang di hukum')
+	}else{
+		console.log('siswa no' + noIdSiswa + 'sedang tidak mengikuti ujian');
+	}
+}
+
 
 
 
