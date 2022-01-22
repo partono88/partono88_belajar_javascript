@@ -9,7 +9,7 @@ alert("Ok!");
 var nama = prompt("masukan nama:");
 alert(nama);
 
-############confirm di gunakan untuk meminta konfirmasi dari user
+// ############confirm di gunakan untuk meminta konfirmasi dari user
 var tes = confirm('kamu yakin??');
 alert(tes)
 
